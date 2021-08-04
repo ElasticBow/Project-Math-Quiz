@@ -35,7 +35,7 @@ function check()
     get_answer = document.getElementById("input_check_box").value;
     answer = get_answer.toLowerCase();
     console.log("answer = " + answer);
-    if(answer == word)
+    if(answer == answer)
     {
         if(answer_turn == "player1")
         {
